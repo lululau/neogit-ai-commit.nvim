@@ -50,9 +50,13 @@ local function setup_keymaps()
       vim.keymap.set({ "n", "i" }, "<C-c><return>", function()
         M.generate_commit_message(ev.buf)
       end, { buffer = ev.buf, desc = "Generate commit message" })
+
+      vim.keymap.set({ "n", "i" }, "<C-c><C-m>", function()
+        M.generate_commit_message(ev.buf)
+      end, { buffer = ev.buf, desc = "Generate commit message" })
       
       -- Print a message to confirm the keymap is set
-      vim.notify("AI commit message keymap (<C-c><C-m>) has been set up", vim.log.levels.INFO)
+      vim.notify("Press <C-c><C-m>) to generate commit message using AI", vim.log.levels.INFO)
     end,
   })
 end
