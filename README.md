@@ -1,6 +1,6 @@
 # neogit-ai-commit
 
-A Neovim plugin that extends [Neogit](https://github.com/TimUntersberger/neogit) to add AI-powered commit message generation using OpenAI's GPT models or compatible APIs.
+A Neovim plugin that extends [Neogit](https://github.com/NeogitOrg/neogit) to add AI-powered commit message generation using OpenAI's GPT models or compatible APIs.
 
 ## Features
 
@@ -16,7 +16,7 @@ A Neovim plugin that extends [Neogit](https://github.com/TimUntersberger/neogit)
 ## Requirements
 
 - Neovim 0.5+
-- [Neogit](https://github.com/TimUntersberger/neogit)
+- [Neogit](https://github.com/Neogit/neogit)
 - [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 - OpenAI API key or compatible API key (via environment variable)
 
