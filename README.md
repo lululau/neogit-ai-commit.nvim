@@ -26,9 +26,9 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-  'neogit-ai-commit',
+  'lululau/neogit-ai-commit.nvim',
   dependencies = {
-    'TimUntersberger/neogit',
+    'NeogitOrg/neogit',
     'nvim-lua/plenary.nvim'
   },
   event = "VeryLazy",
